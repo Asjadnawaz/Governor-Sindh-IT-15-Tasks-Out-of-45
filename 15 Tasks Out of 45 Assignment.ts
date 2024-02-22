@@ -6,8 +6,8 @@ console.log(`Hello ${personName}, would you like to learn some phython today?`);
 //Task 03 - Name Cases
 
 var personName: string = "Asjad Nawaz Khan";
-console.log("LowerCase:", personName.toLowerCase);
-console.log("UpperCase:", personName.toUpperCase);
+console.log("LowerCase:", personName.toLowerCase());
+console.log("UpperCase:", personName.toUpperCase());
 console.log("TitleCase:", personName.replace(/\b\w/g,c => c.toUpperCase()));
 
 //Task 04 - Famous Qoute
